@@ -15,19 +15,19 @@
         <snapshotRepository>
             <id>wso2Telco.snapshots</id>
             <name>Snapshot repo</name>
-            <url>file:///home/nuwan/request-router</url>
+            <url>http://maven.wso2telco.com/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>wso2telco.releases</id>
             <name>release repo</name>
-            <url>file:///home/nuwan/request-router/releases</url>
+            <url>http://maven.wso2telco.com/nexus/content/repositories/releases/</url>
         </repository>
     </distributionManagement>
 
     <scm>
-        <url>https://github.com/Nuwan-Walisundara/request-router.git</url>
-        <developerConnection>scm:git:https://github.com/Nuwan-Walisundara/request-router.git</developerConnection>
-        <connection>scm:git:https://github.com/Nuwan-Walisundara/qrequest-router.git</connection>
+        <url>https://github.com/WSO2Telco/request-router.git</url>
+        <developerConnection>scm:git:https://github.com/WSO2Telco/request-router.git</developerConnection>
+        <connection>scm:git:https://github.com/WSO2Telco/qrequest-router.git</connection>
         <tag>HEAD</tag>
     </scm>
 
