@@ -16,24 +16,23 @@
         <snapshotRepository>
             <id>wso2Telco.snapshots</id>
             <name>Snapshot repo</name>
-            <url>file:///home/manoj/Desktop/request-router</url>
+            <url>file:///home/nuwan/request-router</url>
         </snapshotRepository>
         <repository>
             <id>wso2telco.releases</id>
             <name>release repo</name>
-            <url>file:///home/manoj/Desktop/request-router/releases</url>
+            <url>file:///home/nuwan/request-router/releases</url>
         </repository>
     </distributionManagement>
 
     <scm>
-        <url>https://github.com/manojlh/request-router.git</url>
-        <developerConnection>scm:git:https://github.com/manojlh/request-router.git</developerConnection>
-        <connection>scm:git:https://github.com/manojlh/request-router.git</connection>
+        <url>https://github.com/Nuwan-Walisundara/request-router.git</url>
+        <developerConnection>scm:git:https://github.com/Nuwan-Walisundara/request-router.git</developerConnection>
+        <connection>scm:git:https://github.com/Nuwan-Walisundara/qrequest-router.git</connection>
         <tag>HEAD</tag>
     </scm>
 
     <build>
-        <finalName>HTTPRequestRouter</finalName>
         <plugins>
             <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

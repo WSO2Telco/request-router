@@ -20,6 +20,7 @@
   </properties>
   
   <build>
+<finalName>request-router-${project.version}</finalName>
     <plugins>
      
       <plugin>
@@ -40,6 +41,5 @@
         </configuration>
       </plugin>
     </plugins>
-   <finalName>request-router</finalName>
   </build>
 </project>
