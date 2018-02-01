@@ -1,11 +1,11 @@
 ======================================================================================================================================
-Application Name 	: 	HTTPRequestRouter
+Application Name 	: 	request-router
 Description 		: 	This application will use to send the callback from Gateway to Hub.
 Method 				: 	POST
-Request URL 		: 	http://localhost:8080/HTTPRequestRouter/route/<KEY>/?org=<ENCODED URL>
+Request URL 		: 	http://localhost:8080/request-router/route/<KEY>/?org=<ENCODED URL>
 ======================================================================================================================================
 
-Instructions for configure the HTTPRequestRouter application
+Instructions for configure the request-router application
 
 1.	Create a database on mysql
 		Eg : requestrouter
@@ -45,14 +45,14 @@ Instructions for configure the HTTPRequestRouter application
 					 1 -  url in the request body will url decode
 
 5.	Change the properties in conf.properties file in the following path according the mysql server 
-		File path - HTTPRequestRouter\src\main\resources
+		File path - request-router\src\main\resources
 
 ====================================================================================================================================
-Instructions for integrate HTTPRequestRouter with Gateway
+Instructions for integrate request-router with Gateway
 
 1. Configure the requestRouterUrl property in AxiataMediator-1.0.0.jar as following
 
-	requestRouterUrl=http://<HOST>:<PORT>/HTTPRequestRouter/route/<KEY>/?org=
-		Eg : requestRouterUrl=http://localhost:8080/HTTPRequestRouter/route/MIFE-HUB-USSD/?org=
+	requestRouterUrl=http://<HOST>:<PORT>/request-router/route/<KEY>/?org=
+		Eg : requestRouterUrl=http://localhost:8080/request-router/route/MIFE-HUB-USSD/?org=
 
 =====================================================================================================================================
